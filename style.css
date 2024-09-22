@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+
+}
+.lo{
+    height:100vh;
+    width:100vw;
+    background-color:transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .v{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+    box-sizing: border-box;
+    overflow: hidden;
+} */
+div{
+    color: white;
+}
+.c,.l,.leet,.i,.t,.w,.g{
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding-left: 1px;
+    border: 2px solid red;
+    overflow: hidden;
+}
+.i{
+    padding-left: 25px;
+}
+.c{
+    padding-left: 25px;
+}
+.l{
+    padding-left: 30px;
+}
+.leet{
+    padding-left: 30px;
+}
+.w{
+    padding-left: 30px;
+}
+.t{
+    padding-left: 20px;
+}
+.c:hover{
+    background-color: orangered;
+}
+.l:hover{
+    background-color: orangered;
+}
+.leet:hover{
+    background-color: rgb(35, 169, 35);
+}
+.t:hover{
+    background-color: rgb(35, 169, 35);
+}
+.w:hover{
+    background-color: rgb(35, 169, 35);
+}
+.i:hover{
+    background-color:white;
+    color: black;
+}
+.g:hover{
+    background-color: orangered;
+}
+video{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -100;
+}
+.foot{
+    color:red;
+}
+
+  
